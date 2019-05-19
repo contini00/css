@@ -1,0 +1,19 @@
+[title]{
+    background-color: teal;
+}
+/* coś co posiada titile o wartości */
+[title='About me']{
+    color: peru;
+}
+/* cos co zawiera ciąg znaków */
+[title~="Container"]{
+    background-color: hotpink;
+}
+/* coś się kończy na ciąg znaków */
+[title*="ion"]{
+    background-color:maroon;
+}
+/* Jak coś się zaczyna na ciąg znaków */
+[title^="C"]{
+    background-color: blueviolet;
+}
