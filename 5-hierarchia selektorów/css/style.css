@@ -1,0 +1,14 @@
+p {
+    background-color: salmon !important;
+}
+p{
+    background-color: lightcoral;
+}
+/* class jest po id */
+p.paragraph{
+    background-color: brown;
+}
+/* id jest najważniejsza */
+p#paragraph{
+    background-color: sienna;
+}
