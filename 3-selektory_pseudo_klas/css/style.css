@@ -1,0 +1,27 @@
+#name:hover {
+    background-color: rgb(67, 104, 92);
+}
+#name:focus {
+    background-color: rgb(199, 199, 90);
+}
+
+.customer:first-child {
+    color: rgb(48, 148, 48);
+}
+.customer:last-child{
+    color:darkred;
+}
+.customer:nth-child(4){
+    color:pink;
+}
+/* pierwsze dziecko z hoverem */
+.customer:first-child:hover {
+    color: blue;
+}
+/* to dodaje do n-tego od końca */
+.customer:nth-last-child(2){
+    color:yellowgreen;
+}
+.customer:nth-child(even){
+    background-color: orangered;
+}
