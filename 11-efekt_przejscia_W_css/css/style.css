@@ -1,0 +1,30 @@
+.box{
+    width: 150px;
+    height: 150px;
+    margin:20px;
+    display: inline-block;
+}
+
+#colors{
+    transition: background-color 3s linear 1s;
+    background-color: sienna;
+}
+#colors:hover{
+    background-color: hotpink
+}
+
+#box1{
+    background-color: crimson;
+    transition: width 2s;
+}
+#box1:hover{
+    width:30px;
+}
+#box2{
+    background-color: burlywood;
+    transition: height 2s;
+    
+}
+#box2:hover{
+    height:30px;
+}
