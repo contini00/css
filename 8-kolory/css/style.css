@@ -1,0 +1,23 @@
+body {
+    background: sienna;
+}
+div {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+#predefined-colors{
+    background-color: lightcoral;
+}
+#hexadecimal-colors{
+    background-color: #E87A4D;
+}
+#short-hexadecimal-colors{
+    background-color: #B54
+}
+#rgb-function{
+    background-color: rgb(244,255,158);
+}
+#rgba-function{
+    background-color: rgb(86,144,204,0.5);
+}
