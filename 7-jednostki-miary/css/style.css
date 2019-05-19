@@ -1,0 +1,23 @@
+html{
+    font-size: 20px;
+}
+#container > div{
+    background-color: orange;
+    margin-bottom: 15px;
+}
+/* sztywny */
+#pixels{
+    width: 400px;
+}
+/* tu mamy ustawione html na 20px to n x liczba pixeli początkowych */
+#em{
+    width: 20em;
+}
+/* procent od całego containeRA */
+#percent{
+    width: 50%;
+} 
+/* 60 % OD WYSOKOŚCI */
+#vh{
+    width: 60vh;
+}
