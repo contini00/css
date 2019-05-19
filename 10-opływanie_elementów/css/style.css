@@ -1,0 +1,13 @@
+body{
+    font-size: 15px;
+}
+#strawberry{
+    float: left;
+}
+#strawberry2{
+    float: right;
+}
+p:last-child{
+    background-color: darkgoldenrod;
+    clear: both;
+}
