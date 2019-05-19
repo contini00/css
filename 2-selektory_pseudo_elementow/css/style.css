@@ -1,0 +1,11 @@
+body{
+    background-color: grey;
+}
+#pierwszy::before{
+    content:"Ala ma kota";
+    color:red;
+}
+#drugi::after{
+    content:"Kot ma Sebastaiana";
+    color: pink;
+}
