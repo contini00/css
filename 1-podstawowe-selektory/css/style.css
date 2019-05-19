@@ -1,0 +1,28 @@
+/* gwiazdka selektor ogólny */
+*{
+    color: lightgrey;
+}
+p{
+    color: pink;
+}
+#kasia{
+    color: blue;
+}
+.lorak{
+    color:black;
+}
+/* bezpośrednie potomki */
+li > a{
+    color: orange;
+}
+/* selektor potomka */
+ul span{
+    color: yellow;
+}
+li#pierwszy +li{
+    background: brown;
+}
+li#pierwszy ~ li{
+    background-color: aqua;
+}
+
