@@ -17,3 +17,10 @@
 [title^="C"]{
     background-color: blueviolet;
 }
+[title]:first-child{
+    background-color: lime;
+}
+
+nav > ul > li > a[title]{
+    background-color: blue;
+}
