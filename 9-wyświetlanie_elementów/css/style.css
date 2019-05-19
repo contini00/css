@@ -1,0 +1,28 @@
+#p1{
+    background-color: gold;
+}
+#p2{
+    border: 2px solid rgb(42, 136, 75);
+    background-color: sienna;
+}
+#inline-elements p{
+    display: inline;
+}
+#inline-p1 {
+    background-color: khaki;
+}
+#inline-p2 {
+    background-color: darkred;
+    text-decoration: underline hotpink;
+}
+
+#inline-block-elements li{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    background-color: burlywood;
+}
+#display-none{
+    display: none;
+}
