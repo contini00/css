@@ -1,0 +1,22 @@
+.box {
+    width: 250px;
+    height: 150px;
+    border:orange 1px solid;
+    margin: 100px;
+}
+#visible {
+    overflow: visible;
+    color: orangered;
+}
+#hidden {
+    overflow: hidden;
+    color: goldenrod;
+}
+#scroll {
+    overflow: scroll;
+    color: sienna;
+}
+#auto {
+    overflow: auto;
+    color: hotpink;
+}

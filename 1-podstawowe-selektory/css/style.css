@@ -1,28 +1,94 @@
-/* gwiazdka selektor ogólny */
-*{
-    color: lightgrey;
+body{
+    margin: 0px;
+}    
+#wrapper{
+    
+    width: 700px;
+    height: 700px;
+    position: relative;
+    border: grey 1px solid;
 }
-p{
-    color: pink;
+#green{
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
 }
-#kasia{
-    color: blue;
+#circle{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
-.lorak{
-    color:black;
+#yellow{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 250px;
+    top: 25px;
 }
-/* bezpośrednie potomki */
-li > a{
-    color: orange;
+#circle2{
+    background-color: chocolate;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
-/* selektor potomka */
-ul span{
-    color: yellow;
+#blue{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
 }
-li#pierwszy +li{
-    background: brown;
+#circle3{
+    background: sienna;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
-li#pierwszy ~ li{
-    background-color: aqua;
+#green{
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
 }
-
+#circle{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#yellow{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 250px;
+    top: 25px;
+}
+#circle2{
+    background-color: chocolate;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#blue{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+#circle3{
+    background: sienna;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
