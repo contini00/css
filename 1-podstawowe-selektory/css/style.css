@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    box-sizing: border-box;
 }    
 #wrapper{
     
@@ -8,87 +9,70 @@ body{
     position: relative;
     border: grey 1px solid;
 }
-#green{
-    background-color: chartreuse;
+.box{
     width: 200px;
     height: 200px;
+
+}
+.circle{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+#box1{
+    background-color: chartreuse;
     position: absolute;
     left: 25px;
     top: 25px;
 }
-#circle{
+#circle1{
     background-color: red;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    position:relative;
 }
-#yellow{
+#box2{
     background-color: yellow;
-    width: 200px;
-    height: 200px;
     position: absolute;
     left: 250px;
     top: 25px;
 }
 #circle2{
     background-color: chocolate;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
 }
-#blue{
+#box3{
     background-color: blue;
-    width: 200px;
-    height: 200px;
     position: absolute;
     right: 25px;
     top: 25px;
 }
 #circle3{
     background: sienna;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
 }
-#green{
-    background-color: chartreuse;
-    width: 200px;
-    height: 200px;
+#box4{
+    background-color: forestgreen;
     position: absolute;
     left: 25px;
-    top: 25px;
+    top: 225px;
 }
-#circle{
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+#circle4{
+    background-color: rgb(102, 22, 22);
 }
-#yellow{
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
+#box5{
+    background-color: rgb(31, 82, 158);
     position: absolute;
     left: 250px;
-    top: 25px;
+    top: 225px;
 }
-#circle2{
-    background-color: chocolate;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+#circle5{
+    background-color: rgb(3, 102, 52);
 }
-#blue{
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+#box6{
+    background-color: rgb(85, 4, 4);
     position: absolute;
     right: 25px;
-    top: 25px;
+    top: 225px;
 }
-#circle3{
-    background: sienna;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+#circle6{
+    background: rgb(119, 42, 7);
 }
