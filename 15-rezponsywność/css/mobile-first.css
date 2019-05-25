@@ -8,18 +8,18 @@ body{
 }
 .box {
     font-size: 16px;
-    width: 25%;
+    width: 100%;
     padding: 30px;
     float: left;
     border: orange 10px solid;
 }
-@media (max-width: 1200px) {
+@media (min-width: 768px) {
     .box{
-    width: 50%;
-}
-}
-@media (max-width: 768px) {
-    .box{
-        width: 100%;
+        width: 50%;
     }
+}
+@media (min-width: 1200px) {
+    .box{
+    width: 25%;
+}
 }
